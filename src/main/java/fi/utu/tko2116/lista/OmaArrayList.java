@@ -24,7 +24,6 @@ package fi.utu.tko2116.lista;
  *
  */
 public class OmaArrayList {
-
     private int[] sisalto;
     private int koko;
 
