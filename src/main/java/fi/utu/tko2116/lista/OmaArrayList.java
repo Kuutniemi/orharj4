@@ -1,4 +1,5 @@
 package fi.utu.tko2116.lista;
+
 /**
  * Tämä luokka on yksinkertainen versio ArrayLististä. Oikeasta ArrayLististä
  * poiketen tähän voidaan tallentaa ainoastaan kokonaislukuja, eikä tästä löydy
@@ -25,7 +26,6 @@ package fi.utu.tko2116.lista;
 public class OmaArrayList {
 
     private int[] sisalto;
-
     private int koko;
 
     /**
@@ -107,6 +107,8 @@ public class OmaArrayList {
      */
     public void tyhjenna() {
         // Tämä metodi on tarkoituksella tyhjä, jotta testi epäonnistuu. Toteuta metodi.
+        sisalto = new int[0];
+        koko = 0;
     }
 
     /**
